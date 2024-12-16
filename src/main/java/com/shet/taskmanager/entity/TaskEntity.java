@@ -1,10 +1,14 @@
 package com.shet.taskmanager.entity;
 
-import lombok.Data;
+import lombok.*;
 
 import java.util.*;
 
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+
 public class TaskEntity {
     private int id;
     private String title;
